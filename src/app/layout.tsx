@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ghostridercoin.org'),
+  metadataBase: new URL('https://ghostrider-nextjs.vercel.app/'),
   title: {
     default: "GhostriderCoin | The Fast, Secure Digital Cryptocurrency",
     template: "%s | GhostriderCoin"
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ghostridercoin.org",
+    url: "https://ghostrider-nextjs.vercel.app/",
     siteName: "GhostriderCoin",
     title: "GhostriderCoin | The Fast, Secure Digital Cryptocurrency",
     description: "Discover GhostriderCoin, a community-driven cryptocurrency with fast transactions and a secure network.",
